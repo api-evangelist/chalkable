@@ -1,7 +1,30 @@
 aid: chalkable
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chalkable.png
 name: Chalkable
-description: Chalkable is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Chalkable was a K-12 education technology company that provided a cloud-based
+  student information system (SIS), learning management, and an education "app
+  store" letting schools run third-party classroom apps on top of shared student
+  data. Its developer platform exposed a RESTful API (OAuth 2.0) over school data
+  points such as student and teacher scheduling, real-time attendance, grading
+  and discipline records, announcements, messaging, and notifications, with
+  partner apps rendered inside an iframe within the Chalkable classroom. Chalkable
+  was acquired by PowerSchool on October 12, 2016, and the product line was
+  absorbed into PowerSchool; the original developer surface (dev.chalkable.com and
+  classroom.chalkable.com/Developer) is no longer operational. This profile was
+  surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network as a stub for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/chalkable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +32,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: powerschool
+x-acquired-date: '2016-10-12'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Student Information System
+- Learning Management
+- Attendance
+- Grading
+- Schools
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +56,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/chalkable-domain-security.yml
 - type: Website
-  url: https://huntersystems.com
+  url: https://chalkable.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
