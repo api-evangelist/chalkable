@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Chalkable is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: 500-global — https://huntersystems.com
+Chalkable was a K-12 education technology company that provided a cloud-based student information system (SIS), learning management, and an education "app store" letting schools run third-party classroom apps on top of shared student data. Its developer platform exposed a RESTful API (OAuth 2.0) over school data points such as student and teacher scheduling, real-time attendance, grading and discipline records, announcements, messaging, and notifications, with partner apps rendered inside an iframe within the Chalkable classroom. Chalkable was acquired by PowerSchool on October 12, 2016, and the product line was absorbed into PowerSchool; the original developer surface (dev.chalkable.com and classroom.chalkable.com/Developer) is no longer operational. This profile was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a stub for enrichment.
+
+**Areas:** Company · Education · EdTech · K-12 · Student Information System · LMS · Attendance · Grading · Schools · Acquired
+
+## Chalkable on APIs.io (historical record)
+
+Everything profiled for Chalkable is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chalkable/](https://apis.io/providers/chalkable/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chalkable Domain Security](https://apis.io/security/chalkable/chalkable-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://chalkable.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chalkable: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chalkable/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
